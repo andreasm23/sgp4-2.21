@@ -133,7 +133,7 @@ For this to happen, you need to tell your program 5 parameters:
 - end time
 - output orbit data file
 
-**Opportunity for Excellence**: the TLE data file can come in several formats, namely `KVN`, `XML`, `JSON` and `CSV`. Implement (at least) one additional format that your program can read. You may use libraries for parsing these formats, e.g. Python's `json` package.
+**Opportunity for Excellence**: the TLE data file can come in several formats, namely `KVN`, `XML`, `JSON` and `CSV`, most conveniently retrieved using [Celestrak's API](http://celestrak.org/NORAD/documentation/gp-data-formats.php). Implement (at least) one additional format that your program can read. You may use libraries for parsing these formats, e.g. Python's `json` package.
 
 You have several options to implement passing information to your program:
 
@@ -196,7 +196,20 @@ Generally, the following steps are required to plot ASCII data:
 
 In case of python's `matplotlib` or matlab's `plot`, you'll have to code these steps yourself. In case of excel, these steps involve some clicking and it is difficult to automate, imagine plotting data from dozens of files (using macros may make this batch task more practical).
 
-**Opportunity for Excellence**: Automate the whole workflow, i.e., by calling one single command 1) download the TLE associated with the specified NORAD Id, 2) compute the orbit associated with the specified time start, step and stop, and 3) plot the orbit. This does not exclude you from implementing a solution for the individual steps, because you need to report those steps separately in the answer sheet.
+**Opportunity for Excellence**: Automate the whole workflow. The purpose is for you to simplify the generation of an orbit and associated plot, so that you only need to call one single command, which would do the following:
+
+1. download the TLE associated with the specified NORAD Id ([Task 2](2.-retrieve-the-orbital-elements)), 
+2. compute the orbit associated with the specified time start, step and stop ([Task 4](4.-generate-an-orbit)), and 
+3) plot the orbit ([Task 5](5.-Plot-your-orbit)).
+
+In other words, instead of having multiple commands that you need to call in a certain sequence with certain input arguments, there is only one command that is called with all necessary input arguments (you need to figure out which ones). There will be input arguments for the intermediate steps that you do not need to specify, but you must resolve these dependent input arguments internally. For example, the file name with the orbit data is both:
+
+- an output of your SGP4 propagator and
+- in input to the plotting task.
+
+If you hard-code the name of this file, consecutive runs with different input arguments will over-write this data, which is generally undesirable. Therefore, the best approach is for you to define yourself dynamic names for this files, which are function of the input arguments, so that you can keep the data. On the same line of thought, the plot file names should also be dynamic, so that you can keep the plots of several runs with different input arguments.
+
+Note that solving the Opportunity for Excellence does not exclude you from implementing a solution for the individual steps, because you need to report those steps separately in the answer sheet.
 
 ### 6. Final remarks
 

@@ -35,15 +35,15 @@ SGP4_COM
 
 # 4. Generate an orbit
 
-Report the start time of your time domain.
+Report the start time of your time domain, in terms of minutes since the epoch of you TLE data.
 
 ORB_START_T
 
-Report the stop time of your time domain.
+Report the stop time of your time domain, in terms of minutes since the epoch of you TLE data.
 
 ORB_STOP_T
 
-Report the time step in your time domain.
+Report the time step in your time domain, in terms of minutes.
 
 ORB_STEP_T
 
