@@ -1,92 +1,74 @@
-# rules
+# Rules
 
+This document contains the assignment text. We provide the [answer sheet](answer-sheet.md), where you fill-in the answers to the [tasks](#tasks) listed below. We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the assignment text (this file), will be ignored.
 
+## What do you need to submit
 
-## Getting started
+In addition to your report, you must submit all code and data that you used to find the answers to the assignment. This is important because:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- it legitimises your answers (we will check if your code really provides the answers you gave) and
+- allows us to evaluate the approach you have taken.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Assessment
 
-## Add your files
+You will be given points for your correct answers; wrong answers receive a fraction of the total points or none. Each task has a pre-defined set of points, reported below. 
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+**Please note**:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.tudelft.nl/ae4894-practical-astrodynamics/assignments/2022-2023/rules.git
-git branch -M main
-git push -uf origin main
-```
+- all answers must be given. If your answer sheet is not complete, you automatically fail.
+- your report is individual, which means:
+  - you must use your code to find the answers you provide in the answer sheet, and
+  - the code you submit must be of your authorship.
+- we encourage you to cooperate with your colleagues at the **conceptual** level, so that you are safely within the requirements for an individual report mentioned above.
 
-## Integrate with your tools
+Referring to the [rubrics](https://brightspace.tudelft.nl/d2l/le/content/498874/viewContent/2663586/View), the grade is split according to:
 
-- [ ] [Set up project integrations](https://gitlab.tudelft.nl/ae4894-practical-astrodynamics/assignments/2022-2023/rules/-/settings/integrations)
+- 20% Clarity
+- 40% Approach
+- 40% Content
 
-## Collaborate with your team
+## Types of answers
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+You can expect to provide the following types of answers:
 
-## Test and Deploy
+- **numeric**, which are assessed by numeric comparison with our own solution, and fall in *Approach* item of the rubrics;
+- **plots**, which are assessed visually, and fall in *Clarity* and *Approach* items of the rubrics
+- **open text**, related to answering questions on observations, interpretations and conclusions, generally from plot(s), which are assessed according to the *Content* and *Clarity* items of the rubrics.
 
-Use the built-in continuous integration in GitLab.
+An additional type of "answer" is the code you submit. It is assessed according to the *Approach* rubric item.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+The table below illustrates how each type of "answer" relates to the rubrics items.
 
-***
+| Answer type   | Clarity | Approach | Content | Total |
+| ---           | ---     | ---      | ---     | ---   |  
+| all           | 20%     | 40%      | 40%     |       |  
+| numeric       |         | 1/2      |         | 20%   |
+| plots         |  1/2    | 1/4      |         | 20%   |
+| open text     |  1/2    |          | 1       | 50%   |
+| code          |         | 1/4      |         | 10%   |
 
-# Editing this README
+## Excellence
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+If you address all assignments tasks correctly, your final grade is 8. To get a higher grade, you have several opportunities to show excellence. There are two types of Excellence:
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- Assignment excellence, which is indicated in the assignment text by "**Opportunity for Excellence**", and
+- [Coding excellence](#codingexcellence)
 
-## Name
-Choose a self-explaining name for your project.
+There is no specific formula for how much each excellence item is worth, because there are simply too many. Each one will be assessed individually.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+We want to reward your efforts by being relatively liberal when grading Excellence. For example, you should get a 10 if your report is completely correct and you successfully address:
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+-  all Assignment Excellence items,
+-  all Coding Excellence items, or
+-  a comprehensive mix of Coding and Assignment excellence.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## Coding excellence
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+In addition to opportunities for excellence specific to this assignment, there are the following (non-exhaustive list of) coding opportunities for excellence:
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+- improved execution efficiency,
+- elements of automation,
+- non-obvious, creative and/or innovative algorithmics, and
+- unit testing. 
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+You must report the opportunities for Excellence that you have addressed in your answer sheet in order for them to be assessed.
