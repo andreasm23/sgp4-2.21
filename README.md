@@ -2,7 +2,7 @@
 
 ## Rules
 
-Please carefully read the [rules](-/tree/main/rules/README.md).
+Please carefully read the [rules](./tree/main/rules/README.md).
 
 ## Objectives
 
@@ -126,9 +126,9 @@ In case of python's `matplotlib` or matlab's `plot`, you'll have to code these s
 
 **Opportunity for Excellence**: Automate the whole workflow. The purpose is for you to simplify the generation of an orbit and associated plot, so that you only need to call one single command, which would do the following:
 
-1. download the TLE associated with the specified NORAD Id ([Task 2](2.-retrieve-the-orbital-elements)), 
-2. compute the orbit associated with the specified time start, step and stop ([Task 4](4.-generate-an-orbit)), and 
-3) plot the orbit ([Task 5](5.-Plot-your-orbit)).
+1. download the TLE associated with the specified NORAD Id ([Task 2](#2.-retrieve-the-orbital-elements)), 
+2. compute the orbit associated with the specified time start, step and stop ([Task 4](#4.-generate-an-orbit)), and 
+3) plot the orbit ([Task 5](#5.-Plot-your-orbit)).
 
 In other words, instead of having multiple commands that you need to call in a certain sequence with certain input arguments, there is only one command that is called with all necessary input arguments (you need to figure out which ones). There will be input arguments for the intermediate steps that you do not need to specify, but you must resolve these dependent input arguments internally. For example, the file name with the orbit data is both:
 
