@@ -2,7 +2,7 @@
 
 ## Rules
 
-Please carefully read the [rules](./tree/main/rules/README.md).
+Please carefully read the [rules](./-/tree/main/rules/README.md).
 
 ## Objectives
 
@@ -14,7 +14,7 @@ It is also the prefect way for you to get acquainted with git, gitlab, the submi
 
 ## Tasks
 
-### 1. Pick a satellite
+### 1 Pick a satellite
 
 Go to [celestrak](https://celestrak.org/satcat/search.php) and pick an Earth-orbiting objects of your choice under the following conditions:
 
@@ -24,7 +24,7 @@ Go to [celestrak](https://celestrak.org/satcat/search.php) and pick an Earth-orb
 If there are no satellites that meet this criteria, please post a request in Brightspace to have a NORAD Id assigned to you.
 
 
-### 2. Retrieve the orbital elements 
+### 2 Retrieve the orbital elements 
 
 Retrieve the TLE, which should look something like this:
 
@@ -37,7 +37,7 @@ DELFI-N3XT
 **Opportunity for Excellence**: use CLI tools to retrieve this data programmatically.
 
 
-### 3. Implement the SGP4 propagator
+### 3 Implement the SGP4 propagator
 
 There are several implementations of the SGP4 orbit propagator:
 
@@ -101,11 +101,11 @@ As with parsing input arguments, reading/writing to `stdin`/`stdout` is well sup
 
 **Opportunity for Excellence**: implement 2 of the above methods to communicate the parameters with your SGP4 propagator.
 
-### 4. Generate an orbit
+### 4 Generate an orbit
 
 Use the SGP4 propagator to generate position and velocity of your satellite for at least three orbital revolutions. You may pick the start/stop time and the time step, but be aware you will have to motivated your choice in the answer sheet.
 
-### 5. Plot your orbit
+### 5 Plot your orbit
 
 Represent the orbit data you generated above in a plot, with the x-axis showing time and the y-axis showing the value of the orbital positions along each coordinate axis. Plot all 3 coordinate components in the same plot.
 
@@ -126,9 +126,9 @@ In case of python's `matplotlib` or matlab's `plot`, you'll have to code these s
 
 **Opportunity for Excellence**: Automate the whole workflow. The purpose is for you to simplify the generation of an orbit and associated plot, so that you only need to call one single command, which would do the following:
 
-1. download the TLE associated with the specified NORAD Id ([Task 2](#2.-retrieve-the-orbital-elements)), 
-2. compute the orbit associated with the specified time start, step and stop ([Task 4](#4.-generate-an-orbit)), and 
-3) plot the orbit ([Task 5](#5.-Plot-your-orbit)).
+1. download the TLE associated with the specified NORAD Id ([Task 2](#2-retrieve-the-orbital-elements)), 
+2. compute the orbit associated with the specified time start, step and stop ([Task 4](#4-generate-an-orbit)), and 
+3) plot the orbit ([Task 5](#5-Plot-your-orbit)).
 
 In other words, instead of having multiple commands that you need to call in a certain sequence with certain input arguments, there is only one command that is called with all necessary input arguments (you need to figure out which ones). There will be input arguments for the intermediate steps that you do not need to specify, but you must resolve these dependent input arguments internally. For example, the file name with the orbit data is both:
 
@@ -139,7 +139,7 @@ If you hard-code the name of this file, consecutive runs with different input ar
 
 Note that solving the Opportunity for Excellence does not exclude you from implementing a solution for the individual steps, because you need to report those steps separately in the answer sheet.
 
-### 6. Final remarks
+### 6 Final remarks
 
 Don't forget to:
 
