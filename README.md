@@ -2,7 +2,7 @@
 
 ## Rules
 
-Please carefully read the [rules](rules/README.md).
+Please carefully read the [rules](-/tree/main/rules/README.md).
 
 ## Objectives
 
