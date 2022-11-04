@@ -9,6 +9,10 @@ In addition to your report, you must submit all code and data that you used to f
 - it legitimises your answers (we will check if your code really provides the answers you gave) and
 - allows us to evaluate the approach you have taken.
 
+## How you submit
+
+The only way to submit your report and code is using git to this repository. An introduction to git is given in [Brightspace](https://brightspace.tudelft.nl/d2l/le/content/498874/viewContent/2663587/View). Any problem you have with using Git, please refer to the FAQ in Brighspace. If that does not solve your issue, feel free to ask in the [Brightspace forum](https://brightspace.tudelft.nl/d2l/le/498874/discussions/topics/72877/View).
+
 ## Assessment
 
 You will be given points for your correct answers; wrong answers receive a fraction of the total points or none. Each task has a pre-defined set of points, reported below. 
