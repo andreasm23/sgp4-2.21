@@ -2,7 +2,7 @@
 
 ## Rules
 
-Please carefully read the [rules](https://gitlab.tudelft.nl/ae4894-practical-astrodynamics/assignments/2022-2023/rules/README.md).
+Please carefully read the [rules](rules/README.md).
 
 ## Objectives
 
