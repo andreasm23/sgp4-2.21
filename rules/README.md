@@ -1,6 +1,6 @@
 # Rules
 
-This document contains the assignment text. We provide the [answer sheet](answer-sheet.md), where you fill-in the answers to the [tasks](#tasks) listed below. We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the assignment text (this file), will be ignored.
+This document contains the assignment text. We provide the [answer sheet](answer-sheet.md), where you fill-in the answers to the [tasks](README.md#Tasks) listed in the [assignment text](README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the [assignment text](README.md), will be ignored.
 
 ## What do you need to submit
 
@@ -52,7 +52,7 @@ The table below illustrates how each type of "answer" relates to the rubrics ite
 If you address all assignments tasks correctly, your final grade is 8. To get a higher grade, you have several opportunities to show excellence. There are two types of Excellence:
 
 - Assignment excellence, which is indicated in the assignment text by "**Opportunity for Excellence**", and
-- [Coding excellence](#codingexcellence)
+- [Coding excellence](#coding-excellence)
 
 There is no specific formula for how much each excellence item is worth, because there are simply too many. Each one will be assessed individually.
 
