@@ -1,6 +1,6 @@
 # Rules
 
-This document contains the assignment text. We provide the [answer sheet](answer-sheet.md), where you fill-in the answers to the [tasks](README.md#Tasks) listed in the [assignment text](README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the [assignment text](README.md), will be ignored.
+This document contains the assignment text. We provide the [answer sheet](answer-sheet.md), where you fill-in the answers to the [tasks](../README.md#Tasks) listed in the [assignment text](../README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the [assignment text](../README.md), will be ignored.
 
 ## What do you need to submit
 
