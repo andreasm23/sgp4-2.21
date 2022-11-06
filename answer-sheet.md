@@ -11,19 +11,19 @@ Please remember:
     - correct: "99999"
 - You may use multiple lines to answer, if needed. 
 
-# 1. Pick a satellite
+# 1 Pick a satellite 
 
 Report the NORAD Id you selected.
 
 NORAD_ID
 
-# 2. Retrieve the orbital elements 
+# 2 Retrieve the orbital elements
 
 Report the TLE data you retrieved. If you retrieved TLE data in `KVN`, `XML`, `JSON` or `CSV` formats, report it in `TLE` format.
 
 TLE_DATA
 
-# 3. Retrieve the SGP4 propagator
+# 3 Implement the SGP4 propagator (code answer: 8 points)
 
 Report the URL or GitHub repository of the SGP4 implementation you will be using.
 
@@ -33,7 +33,7 @@ Report the command that you use in the CLI to generate the orbit data.
 
 SGP4_COM
 
-# 4. Generate an orbit
+# 4 Generate an orbit
 
 Report the start time of your time domain, in terms of minutes since the epoch of you TLE data.
 
@@ -59,7 +59,7 @@ Report the last data point from the orbit data you generated with the SGP4 propa
 
 ORB_LAST
 
-### 5. Plot your orbit
+# 5 Plot your orbit
 
 Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your image to this document.
 
@@ -78,7 +78,7 @@ Make one conclusions based on the observations and interpretations you reported 
 ORB_CON
 
 
-### 6. Final remarks
+# Final remarks
 
 Report the steps you have taken to address Code Excellence. Report "none" if relevant.
 
