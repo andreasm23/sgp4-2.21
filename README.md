@@ -36,20 +36,20 @@ Referring to the [rubrics](https://brightspace.tudelft.nl/d2l/le/content/498874/
 You can expect to provide the following types of answers:
 
 - **numeric**, which are assessed by numeric comparison with our own solution, and fall in *Approach* item of the rubrics;
-- **plots**, which are assessed visually, and fall in *Clarity* and *Approach* items of the rubrics
+- **graphic**, generally composed of plots you produce, are assessed visually, and fall in *Clarity* and *Approach* items of the rubrics
 - **open text**, related to answering questions on observations, interpretations and conclusions, generally from plot(s), which are assessed according to the *Content* and *Clarity* items of the rubrics.
 
 An additional type of "answer" is the code you submit. It is assessed according to the *Approach* rubric item.
 
 The table below illustrates how each type of "answer" relates to the rubrics items.
 
-| Answer type   | Clarity | Approach | Content | Total |
-| ---           | ---     | ---      | ---     | ---   |  
-| all           | 20%     | 40%      | 40%     |       |  
-| numeric       |         | 1/2      |         | 20%   |
-| plots         |  1/2    | 1/4      |         | 20%   |
-| open text     |  1/2    |          | 1       | 50%   |
-| code          |         | 1/4      |         | 10%   |
+| Answer type   | Clarity | Approach | Content | Total | Points |
+| ---           | ---     | ---      | ---     | ---   | ---    | 
+| all           | 20%     | 40%      | 40%     |       | 80     | 
+| numeric       |         | 1/2      |         | 20%   | 16     |
+| graphic       |  1/2    | 1/4      |         | 20%   | 16     | 
+| open text     |  1/2    |          | 1       | 50%   | 40     |
+| code          |         | 1/4      |         | 10%   | 8      |
 
 ## Excellence
 
