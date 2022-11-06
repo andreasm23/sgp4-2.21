@@ -14,7 +14,7 @@ It is also the prefect way for you to get acquainted with git, gitlab, the submi
 
 ## Tasks
 
-### 1 Pick a satellite
+### 1 Pick a satellite 
 
 Go to [celestrak](https://celestrak.org/satcat/search.php) and pick an Earth-orbiting objects of your choice under the following conditions:
 
@@ -37,7 +37,7 @@ DELFI-N3XT
 **Opportunity for Excellence**: use CLI tools to retrieve this data programmatically.
 
 
-### 3 Implement the SGP4 propagator
+### 3 Implement the SGP4 propagator 
 
 There are several implementations of the SGP4 orbit propagator:
 
@@ -139,7 +139,7 @@ If you hard-code the name of this file, consecutive runs with different input ar
 
 Note that solving the Opportunity for Excellence does not exclude you from implementing a solution for the individual steps, because you need to report those steps separately in the answer sheet.
 
-### 6 Final remarks
+## Final remarks
 
 Don't forget to:
 
