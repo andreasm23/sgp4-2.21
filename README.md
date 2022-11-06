@@ -1,5 +1,7 @@
 # Assignment A0
 
+{:toc}
+
 ## Rules
 
 Please carefully read the [rules](rules/README.md).
