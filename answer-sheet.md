@@ -47,57 +47,57 @@ Report the time step in your time domain, in terms of minutes.
 
 ORB_STEP_T
 
-Report the motivation that led you to choose the values of the parameters above, i.e., start/stop times and time step.
+Report the motivation that led you to choose the values of the parameters above, i.e., start/stop times and time step (open text answer: 4 points).
 
 ORB_JUST
 
-Report the first data point, i.e. time, position x, y, z, velocity x, y, z, from the orbit data you generated with the SGP4 propagator.
+Report the first data point, i.e. time, position x, y, z, velocity x, y, z, from the orbit data you generated with the SGP4 propagator (numeric answer: 8 points).
 
 ORB_FIRST
 
-Report the last data point from the orbit data you generated with the SGP4 propagator.
+Report the last data point from the orbit data you generated with the SGP4 propagator (numeric answer: 8 points).
 
 ORB_LAST
 
 # 5 Plot your orbit
 
-Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your image to this document.
+Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your image to this document (graphic answer: 16 points).
 
 ORB_PLOT
 
-Make three observations about the data you plotted.
+Make three observations about the data you plotted (open text answer: 8 points).
 
 ORB_OBS
 
-Make two interpretations about the observations you reported above.
+Make two interpretations about the observations you reported above (open text answer: 14 points).
 
 ORB_INT
 
-Make one conclusions based on the observations and interpretations you reported above.
+Make one conclusions based on the observations and interpretations you reported above (open text answer: 14 points).
 
 ORB_CON
 
 
 # Final remarks
 
-Report the steps you have taken to address Code Excellence. Report "none" if relevant.
+Report the steps you have taken to address Code Excellence. Report "none" if relevant (code excellence answer: possible 20 points).
 
 EXC_CODE
 
 Report the steps you have taken to address Assignment Excellence. Report "none" if relevant.
 
-- use CLI tools to retrieve this data programmatically:
+- use CLI tools to retrieve this data programmatically (assignment excellence answer: possible 4 points):
 
 EXC_ASSIGN_1
 
-- implement parsing additional TLE format(s) in your program:
+- implement parsing additional TLE format(s) in your program (assignment excellence answer: possible 4 points):
 
 EXC_ASSIGN_2
 
-- implement multiple methods to communicate the parameters with your SGP4 propagator:
+- implement multiple methods to communicate the parameters with your SGP4 propagator (assignment excellence answer: possible 4 points):
 
 EXC_ASSIGN_3
 
-- automate the whole workflow:
+- automate the whole workflow (assignment excellence answer: possible 8 points):
 
 EXC_ASSIGN_4
