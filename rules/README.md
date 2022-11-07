@@ -55,16 +55,14 @@ The table below illustrates how each type of "answer" relates to the rubrics ite
 
 If you address all assignments tasks correctly, your final grade is 8. To get a higher grade, you have several opportunities to show excellence. There are two types of Excellence:
 
-- Assignment excellence, which is indicated in the assignment text by "**Opportunity for Excellence**", and
-- [Coding excellence](#coding-excellence)
+- Assignment Excellence, which is indicated in the assignment text by "**Opportunity for Excellence**", and
+- [Coding Excellence](#coding-excellence)
 
-There is no specific formula for how much each excellence item is worth, because there are simply too many. Each one will be assessed individually.
+Unlike Assignment Excellence, where each item is assigned specific points (see the *Final Remarks* section in the answer sheet), there is no specific formula for how much each Coding Excellence item is worth, because there are simply too many. Each one will be assessed individually.
 
-We want to reward your efforts by being relatively liberal when grading Excellence. For example, you should get a 10 if your report is completely correct and you successfully address:
+We want to reward your efforts by being relatively liberal when grading Excellence. For example, you should get a 10 if your report is **completely correct** and you successfully address **a few** Assignment Excellence items and **a few** Coding Excellence items (see bellow). Likewise, you should get a very high mark if you address **most** Assignment and Coding Excellence items but some **a few** report answers incorrect. The wording above (*a few*, *most*) is deliberate because we will grade (Coding) Excellence on a case-by-case basis.
 
--  all Assignment Excellence items,
--  all Coding Excellence items, or
--  a comprehensive mix of Coding and Assignment excellence.
+**Please note:** any Excellence points can _only_ be assessed if you list which Code and Assignment Excellence items you have addressed in the *Final remarks* section of your report.
 
 ## Coding excellence
 
@@ -74,5 +72,3 @@ In addition to opportunities for excellence specific to this assignment, there a
 - elements of automation,
 - non-obvious, creative and/or innovative algorithmics, and
 - unit testing. 
-
-You must report the opportunities for Excellence that you have addressed in your answer sheet in order for them to be assessed.
