@@ -10,7 +10,7 @@ This assignment intends to help you setup basic tools that are going to be neede
 
 **However**, we strongly advise you to take it as seriously as any other assignment because it will lay the foundations for you to solve other assignments. In other words, if you will have to solve this assignment anyway later on, in one form or another.
 
-It is also the prefect way for you to get acquainted with git, gitlab, the submission process and the general idea about solving the later assignments. You will be given general feedback on the lectures, and you will have the opportunity to ask questions to solve difficulties that you encountered now.
+It is also the prefect way for you to get acquainted with git, GitLab, the submission process and the general idea about solving the later assignments. You will be given general feedback on the lectures, and you will have the opportunity to ask questions to solve difficulties that you encountered now.
 
 ## Tasks
 
@@ -89,7 +89,7 @@ orbit.dat
 myspg4.exe spg4.config
 ```
  
-You'll only have to parse one input argument (the name of the input config file), but you'll have to parse the contents of this file to retrieve the relevant information.
+You'll only have to parse one input argument (the name of the input configuration file), but you'll have to parse the contents of this file to retrieve the relevant information.
 
 **3: Use `stdin` combined with input arguments**. This is a more advanced method, where the TLE data is read from the `sdtin`, and the time span is defined through input arguments. A natural way to handle the output (which was saved in `orbit.dat` in previous options) is to write it to `stdout` (the screen). It is then possible to [redirect](https://medium.com/hacker-toolbelt/bash-shell-redirecting-standard-input-and-output-8c4713a22ea5) the output of `stdout` to a file, using the '>' operator:
 
@@ -107,7 +107,7 @@ Use the SGP4 propagator to generate position and velocity of your satellite for 
 
 ### 5 Plot your orbit
 
-Represent the orbit data you generated above in a plot, with the x-axis showing time and the y-axis showing the value of the orbital positions along each coordinate axis. Plot all 3 coordinate components in the same plot.
+Represent the orbit data you generated in Task 4 in a plot, with the x-axis showing time and the y-axis showing the value of the orbital positions along each coordinate axis. Plot all 3 coordinate components in the same plot.
 
 There are multiple choices for plotting data:
 

@@ -1,6 +1,6 @@
 # Introduction
 
-The sections below relate directly to the tasks described in the [assignment text](README.md). In each one, you will find a short statement requesting you to give a short answer. Below that statement there are a few characters, for example `NORAD_CAT_ID`. Replace that string with your answer. 
+The sections below relate directly to the tasks described in the [assignment text](README.md). In each one, you will find a short statement requesting you to give a short answer. Below that statement there are a few characters, for example `NORAD_CAT_ID`. Replace that string, and only that string, with your answer. 
 
 Please remember:
 
@@ -61,7 +61,7 @@ ORB_LAST
 
 # 5 Plot your orbit
 
-Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your image to this document (graphic answer: 16 points).
+Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your plot to this document (graphic answer: 16 points).
 
 ORB_PLOT
 
