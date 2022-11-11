@@ -32,7 +32,7 @@ DELFI-C3 (DO-64)
 
 Report the URL or GitHub repository of the SGP4 implementation you will be using.
 
-https://rhodesmill.org/pyephem/
+https://github.com/brandon-rhodes/python-sgp4
 
 Report the command that you use in the CLI to generate the orbit data.
 
