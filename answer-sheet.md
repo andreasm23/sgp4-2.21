@@ -10,6 +10,9 @@ Please remember:
     - wrong: "I selected NORAD Id 99999"
     - correct: "99999"
 - You may use multiple lines to answer, if needed. 
+- For numerical answers involving fractional numbers:
+    - use scientific notation with 6 significant digits: `-1.23456e-1`
+    - in case multiple values are requested, e.g. when reporting vectorial quantities, separate each component with a blank space(s): `-1.23456e-1 -2.34561e-2 -3.45612e-3`
 
 # 1 Pick a satellite 
 
@@ -64,6 +67,10 @@ ORB_LAST
 Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your plot to this document (graphic answer: 16 points).
 
 ORB_PLOT
+
+Report the command that you use in the CLI to generate your plot.
+
+COR_PLOT_COM
 
 Make three observations about the data you plotted (open text answer: 8 points).
 
