@@ -1,8 +1,6 @@
 # Assignment A0
 
-## Rules
-
-Please carefully read the [rules](rules/README.md).
+Please carefully read the [rules](rules/README.md). After reading this document, provide your answers in the [answer sheet](answer-sheet.md).
 
 ## Objectives
 
