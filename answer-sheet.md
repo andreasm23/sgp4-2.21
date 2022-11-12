@@ -1,6 +1,6 @@
 # Introduction
 
-Please carefully read the [rules](rules/README.md).
+Please carefully read the [rules](rules/README.md). Provide your answers in the [answer sheet](answer-sheet.md).
 
 # 1 Pick a satellite 
 
