@@ -1,18 +1,6 @@
 # Introduction
 
-The sections below relate directly to the tasks described in the [assignment text](README.md). In each one, you will find a short statement requesting you to give a short answer. Below that statement there are a few characters, for example `NORAD_CAT_ID`. Replace that string, and only that string, with your answer. 
-
-Please remember:
-
-- Do not edit anything else in this answer sheet.
-- Do not use any kind of formatting, e.g. `something`.
-- Only report what is asked, do not answer in a sentence:
-    - wrong: "I selected NORAD Id 99999"
-    - correct: "99999"
-- You may use multiple lines to answer, if needed. 
-- For numerical answers involving fractional numbers:
-    - use scientific notation with 6 significant digits: `-1.23456e-1`
-    - in case multiple values are requested, e.g. when reporting vectorial quantities, separate each component with a blank space(s): `-1.23456e-1 -2.34561e-2 -3.45612e-3`
+Please carefully read the [rules](rules/README.md).
 
 # 1 Pick a satellite 
 
@@ -64,7 +52,7 @@ ORB_LAST
 
 # 5 Plot your orbit
 
-Report the markdown code (see [this link](https://docs.gitlab.com/ee/user/markdown.html#images)) that adds your plot to this document (graphic answer: 16 points).
+Report the markdown code that adds your plot to this document (graphic answer: 16 points).
 
 ORB_PLOT
 
@@ -85,7 +73,7 @@ Make one conclusions based on the observations and interpretations you reported 
 ORB_CON
 
 
-# Final remarks
+# 6 Final remarks
 
 Report the steps you have taken to address Code Excellence. Report "none" if relevant (code excellence answer: possible 20 points).
 
