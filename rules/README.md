@@ -1,6 +1,37 @@
 # Rules
 
-This document contains the assignment text. We provide the [answer sheet](/answer-sheet.md), where you fill-in the answers to the tasks listed in the [assignment text](/README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the assignment text, will be ignored.
+This document contains the assignment text. 
+
+We provide the [answer sheet](/answer-sheet.md), where you fill-in the answers to the tasks listed in the [assignment text](/README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the assignment text, will be ignored.
+
+## Reporting
+
+The sections in the [answer sheet](/answer-sheet.md) relate directly to the tasks described in the [assignment text](README.md). Each task is subdivided into a number of questions, each one requesting you to give a short answer. Below each question, there is a string in [screaming snake case](https://en.wikipedia.org/wiki/Snake_case), for example `NORAD_CAT_ID`. Replace that string, and only that string, with your answer. 
+
+Please remember:
+
+- Do not edit anything else in the answer sheet, only replace the screaming snake case string with your answer.
+- You may use multiple lines to answer, if needed. 
+- Do not use formatting in the same line as the value of your asnwer, e.g.:
+```
+`something`
+```
+- You may use multi-line formatting, e.g. [multiline blockquote](https://docs.gitlab.com/ee/user/markdown.html#multiline-blockquote) or [code block](https://docs.gitlab.com/ee/user/markdown.html#code-spans-and-blocks):
+```
+~~~
+DELFI-N3XT              
+1 39428U 13066N   22278.36746881  .00006067  00000+0  92841-3 0  9991
+2 39428  97.8159 208.0372 0114906 286.7293  72.1329 14.69680532474673
+~~~
+```
+- For reporting figures, use the [correct markdown](https://docs.gitlab.com/ee/user/markdown.html#images) that will include your figure in the html-parsed report, as shown in GitLab, after you do `git push`. Please check that the html-parsed report shows your figure, it is the best way to be sure that you report the figure correctly. You can use [pandoc](https://pandoc.org) in your computer to see the html-parsed report.
+- Only report what is asked, do not answer in a sentence:
+    - WRONG: "I selected NORAD Id 99999"
+    - RIGHT: "99999"
+- For numerical answers involving fractional numbers:
+    - use scientific notation with 6 significant digits: `-1.23456e-1`
+    - in case multiple values are requested, e.g. when reporting vectorial quantities, separate each component with a blank space(s): `-1.23456e-1 -2.34561e-2 -3.45612e-3`
+
 
 ## What do you need to submit
 
@@ -9,9 +40,15 @@ In addition to your report, you must submit all code and data that you used to f
 - it legitimises your answers (we will check if your code really provides the answers you gave) and
 - allows us to evaluate the approach you have taken.
 
+Please keep the number of source code files to one; make a request to exempt you from this requirement the Brightspace forum in case this is not possible.
+
+Don't forget to provide a [makefile](https://www.gnu.org/software/make/manual/html_node/Introduction.html) or script that allow us to compile your code.
+
 ## How you submit
 
-The only way to submit your report and code is using git to this repository. An introduction to git is given in [Brightspace](https://brightspace.tudelft.nl/d2l/le/content/498874/viewContent/2663587/View). Any problem you have with using Git, please refer to the FAQ in Brighspace. If that does not solve your issue, feel free to ask in the [Brightspace forum](https://brightspace.tudelft.nl/d2l/le/498874/discussions/topics/72877/View).
+The only way to submit your report and code is using git with this repository. 
+
+An introduction to git is given in Brightspace (Content > Resources and Tools > Git introduction). Any problem you have with using Git, please refer to the FAQ in Brighspace. If that does not solve your issue, feel free to ask in the Brightspace forum (Collaboration > Discussions > General > Git and GitLab).
 
 ## Assessment
 
@@ -19,8 +56,8 @@ You will be given points for your correct answers; wrong answers receive a fract
 
 **Please note**:
 
-- all answers must be given. If your answer sheet is not complete, you automatically fail.
-- your report is individual, which means:
+- all answers must be given. If your answer sheet is not complete, you automatically fail. Report "none" or 0 if you want to want to skip that answer.
+- your report is **individual**, which means:
   - you must use your code to find the answers you provide in the answer sheet, and
   - the code you submit must be of your authorship.
 - we encourage you to cooperate with your colleagues at the **conceptual** level, so that you are safely within the requirements for an individual report mentioned above.
