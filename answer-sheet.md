@@ -81,18 +81,18 @@ EXC_CODE
 
 Report the steps you have taken to address Assignment Excellence. Report "none" if relevant.
 
-- use CLI tools to retrieve this data programmatically (assignment excellence answer: possible 4 points):
+- use CLI tools to retrieve this data programmatically (assignment excellence answer: possible 4 points)
 
 EXC_ASSIGN_1
 
-- implement parsing additional TLE format(s) in your program (assignment excellence answer: possible 4 points):
+- implement parsing additional TLE format(s) in your program (assignment excellence answer: possible 4 points)
 
 EXC_ASSIGN_2
 
-- implement multiple methods to communicate the parameters with your SGP4 propagator (assignment excellence answer: possible 4 points):
+- implement multiple methods to communicate the parameters with your SGP4 propagator (assignment excellence answer: possible 4 points)
 
 EXC_ASSIGN_3
 
-- automate the whole workflow (assignment excellence answer: possible 8 points):
+- automate the whole workflow (assignment excellence answer: possible 8 points)
 
 EXC_ASSIGN_4
