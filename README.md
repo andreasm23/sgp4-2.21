@@ -1,6 +1,7 @@
 # Assignment A0
 
-Please carefully read the [rules](rules/README.md). After reading this document, provide your answers in the [answer sheet](answer-sheet.md).
+Please carefully read the [rules](rules/README.md). After reading this document, copy the [answer sheet](answer-sheet.md) to file `report.md` and provide your answers in the latter. Do not edit this document nor the [answer sheet](answer-sheet.md).
+
 
 ## Objectives
 
