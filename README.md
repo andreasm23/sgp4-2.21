@@ -1,8 +1,10 @@
 # Rules
 
-This document contains the assignment text. 
+The assignment text can be found in the [README](README.md) document. 
 
-We provide the [answer sheet](/answer-sheet.md), where you fill-in the answers to the tasks listed in the [assignment text](/README.md). We call *report* to the edited answer sheet, after you fill-in your answers. Any modification to the assignment text, will be ignored.
+We provide the [answer sheet](/answer-sheet.md), which is the basis for your report. Please copy the [answer sheet](/answer-sheet.md) to a new file called `report.md`, where you should fill-in the answers to the tasks listed in the [assignment text](/README.md). 
+
+Any modification to the [assignment text](/README.md) or the [answer sheet](/answer-sheet.md), will be ignored. Editing these files will also create problems in the unlikely case any last-minute correction needs to be made in either document; any modification to the assignment or answer-sheet will be announced in Brightspace.
 
 ## Reporting
 
@@ -10,9 +12,10 @@ The sections in the [answer sheet](/answer-sheet.md) relate directly to the task
 
 Please remember:
 
-- Do not edit anything else in the answer sheet, only replace the screaming snake case string with your answer.
+- Do not edit anything else in the new `report.md` file, only replace the screaming snake case string with your answer.
 - You may use multiple lines to answer, if needed. 
-- Do not use formatting in the same line as the value of your asnwer, e.g.:
+- Refer to [this webpage](https://docs.gitlab.com/ee/user/markdown.html) to learn how markdown works. 
+- Do not use formatting in the same line as the value of your answer, e.g.:
 ```
 `something`
 ```
@@ -48,7 +51,7 @@ Don't forget to provide a [makefile](https://www.gnu.org/software/make/manual/ht
 
 The only way to submit your report and code is using git with this repository. 
 
-An introduction to git is given in Brightspace (Content > Resources and Tools > Git introduction). Any problem you have with using Git, please refer to the FAQ in Brighspace. If that does not solve your issue, feel free to ask in the Brightspace forum (Collaboration > Discussions > General > Git and GitLab).
+An introduction to git is given in Brightspace (Content > Resources and Tools > Git introduction). Any problem you have with using Git, please refer to the FAQ in Brightspace. If that does not solve your issue, feel free to ask in the Brightspace forum (Collaboration > Discussions > General > Git and GitLab).
 
 ## Assessment
 
